@@ -39,5 +39,5 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'my-wordpress-app'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
-    RuntimeStack: 'DOTNETCORE|6.0'
+    RuntimeStack: 'DOTNETCORE|3.1'
     StartupCommand: 'dotnet run'
