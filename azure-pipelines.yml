@@ -36,8 +36,6 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Visual Studio Enterprise Subscription(5c1f4406-f935-4e16-8692-59f444e24112)'
-    appType: 'webAppLinux'
-    WebAppName: 'my-wordpress-app'
+    appType: 'webApp'
+    WebAppName: 'windowsapp01'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
-    RuntimeStack: 'DOTNETCORE|3.1'
-    StartupCommand: 'dotnet run'
